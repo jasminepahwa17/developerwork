@@ -77,7 +77,6 @@ export default function Navbar() {
           className="inline-flex items-center gap-2 rounded-full border border-slate-300/80 bg-slate-100 px-4 py-2 text-sm font-medium text-slate-900 transition hover:border-slate-400 hover:bg-slate-200 dark:border-slate-700/80 dark:bg-slate-900 dark:text-slate-100 dark:hover:border-slate-500 dark:hover:bg-slate-800"
         >
           {theme === 'dark' ? <SunIcon /> : <MoonIcon />}
-          {/* <span>{theme === 'dark' ? 'Day mode' : 'Night mode'}</span> */}
         </button>
       </div>
     </nav>
