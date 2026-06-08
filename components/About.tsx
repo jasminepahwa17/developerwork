@@ -43,7 +43,7 @@ export default function About() {
                   <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                 </svg>
                 <a
-                  href="mailto:john.doe@example.com"
+                  href="mailto:jasminepahwa4567@gmail.com"
                   className="text-sm text-gray-600 hover:text-gray-900"
                 >
                   jasminepahwa4567@gmail.com
