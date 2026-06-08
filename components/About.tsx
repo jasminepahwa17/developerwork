@@ -7,7 +7,7 @@ export default function About() {
             <div className="relative w-28 md:w-40 h-28 md:h-40 mx-auto">
               <div className="relative w-full h-full rounded-full overflow-hidden ring-2 ring-gray-200">
                 <img
-                  src="/images/jas.jpg"
+                  src="/images/jas.JPG"
                   alt="Jas avatar"
                   className="relative w-28 md:w-40 h-28 md:h-40 mx-auto"
                 />
