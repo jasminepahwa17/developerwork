@@ -10,6 +10,9 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="google-site-verification" content="9pBPwYPMEKgaaCN_5AtBoRqmBszOkRqnGJYXqIY5M2o" />
+      </head>
       <body className="antialiased min-h-screen bg-white text-slate-950 dark:bg-slate-950 dark:text-slate-100 transition-colors duration-300">
         {/* <Navbar /> */}
         {children}
