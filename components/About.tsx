@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function About() {
   return (
-    <section className="flex-1 grid grid-cols-1 md:grid-cols-5 h-screen">
+    <section aria-label="Portfolio" className="flex-1 grid grid-cols-1 md:grid-cols-5 h-screen">
       <div className="md:col-span-2 border-b md:border-b-0 md:border-r border-gray-200 md:flex md:items-center">
         <div className="w-full py-8 md:py-0 bg-white px-6 pt-16 sm:pt-0">
           <div className="space-y-8 text-center">
@@ -18,9 +18,9 @@ export default function About() {
             </div>
 
             <div className="space-y-3">
-              <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
+              <h1 className="text-2xl md:text-3xl font-bold text-gray-900">
                 Jasmine Pahwa
-              </h2>
+              </h1>
               <p className="text-lg md:text-xl text-gray-600">
                 Frontend Software Engineer
               </p>
@@ -34,11 +34,12 @@ export default function About() {
             <div className="space-y-4">
               <div className="flex items-center justify-center space-x-2">
                 <svg
+                  aria-hidden="true"
                   className="w-4 h-4 text-gray-600"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
-                  stroke-width="2"
+                  strokeWidth="2"
                 >
                   <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                 </svg>
@@ -51,11 +52,12 @@ export default function About() {
               </div>
               <div className="flex items-center justify-center space-x-2">
                 <svg
+                  aria-hidden="true"
                   className="w-4 h-4 text-gray-600"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
-                  stroke-width="2"
+                  strokeWidth="2"
                 >
                   <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
                   <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
@@ -65,6 +67,7 @@ export default function About() {
 
               <div className="flex items-center justify-center space-x-2">
                 <svg
+                  aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   height="24px"
                   viewBox="0 -960 960 960"
@@ -88,9 +91,11 @@ export default function About() {
                   href="https://github.com/jasminepahwa17"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-2 text-gray-600 hover:text-gray-900"
+                  aria-label="GitHub profile (opens in new tab)"
+                  className="p-2 text-gray-600 hover:text-gray-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900 rounded"
                 >
                   <svg
+                    aria-hidden="true"
                     viewBox="0 0 24 24"
                     width="20"
                     height="20"
@@ -103,9 +108,11 @@ export default function About() {
                   href="https://linkedin.com/in/develooperjas"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-2 text-gray-600 hover:text-gray-900"
+                  aria-label="LinkedIn profile (opens in new tab)"
+                  className="p-2 text-gray-600 hover:text-gray-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900 rounded"
                 >
                   <svg
+                    aria-hidden="true"
                     viewBox="0 0 24 24"
                     width="20"
                     height="20"
@@ -133,11 +140,12 @@ export default function About() {
                 <div>
                   <div className="flex items-center space-x-2 mb-2">
                     <svg
+                      aria-hidden="true"
                       className="w-4 h-4"
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="#9DA2AF"
-                      stroke-width="2"
+                      strokeWidth="2"
                     >
                       <path d="M8 3v3a2 2 0 01-2 2H3m18 0h-3a2 2 0 01-2-2V3M3 16v3a2 2 0 002 2h3m8-2h3a2 2 0 002-2v-3"></path>
                     </svg>
@@ -160,11 +168,12 @@ export default function About() {
                 <div>
                   <div className="flex items-center space-x-2 mb-2">
                     <svg
+                      aria-hidden="true"
                       className="w-4 h-4"
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="#9DA2AF"
-                      stroke-width="2"
+                      strokeWidth="2"
                     >
                       <path d="M8 3v3a2 2 0 01-2 2H3m18 0h-3a2 2 0 01-2-2V3M3 16v3a2 2 0 002 2h3m8-2h3a2 2 0 002-2v-3"></path>
                     </svg>
@@ -184,11 +193,12 @@ export default function About() {
                 <div>
                   <div className="flex items-center space-x-2 mb-2">
                     <svg
+                      aria-hidden="true"
                       className="w-4 h-4"
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="#9DA2AF"
-                      stroke-width="2"
+                      strokeWidth="2"
                     >
                       <path d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2"></path>
                     </svg>
@@ -211,11 +221,12 @@ export default function About() {
                 <div>
                   <div className="flex items-center space-x-2 mb-2">
                     <svg
+                      aria-hidden="true"
                       className="w-4 h-4"
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="#9DA2AF"
-                      stroke-width="2"
+                      strokeWidth="2"
                     >
                       <path d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path>
                     </svg>
@@ -316,7 +327,7 @@ export default function About() {
                     <h4 className="text-md font-medium text-gray-900">
                       Embrace Lives
                     </h4>
-                    <img src="/icons/redirect.svg" className="w-4" />
+                    <img src="/icons/redirect.svg" className="w-4" alt="" aria-hidden="true" />
                   </div>
                   <p className="text-sm text-gray-600">
                     Consultation booking platform based on available slots
@@ -332,7 +343,7 @@ export default function About() {
                     <h4 className="text-md font-medium text-gray-900">
                       Zepcruit AI
                     </h4>
-                    <img src="/icons/redirect.svg" className="w-4" />
+                    <img src="/icons/redirect.svg" className="w-4" alt="" aria-hidden="true" />
                   </div>
                   <p className="text-sm text-gray-600">
                     AI-powered hiring & recruitment platform
@@ -348,7 +359,7 @@ export default function About() {
                     <h4 className="text-md font-medium text-gray-900">
                       Startup Investors
                     </h4>
-                    <img src="/icons/redirect.svg" className="w-4" />
+                    <img src="/icons/redirect.svg" className="w-4" alt="" aria-hidden="true" />
                   </div>
                   <p className="text-sm text-gray-600">
                     Find startup investors, angel investors, micro VCs and
@@ -365,7 +376,7 @@ export default function About() {
                     <h4 className="text-md font-medium text-gray-900">
                       Bidfinite
                     </h4>
-                    <img src="/icons/redirect.svg" className="w-4" />
+                    <img src="/icons/redirect.svg" className="w-4" alt="" aria-hidden="true" />
                   </div>
                   <p className="text-sm text-gray-600">
                     Gamified auction platform for exclusive cars with real-time

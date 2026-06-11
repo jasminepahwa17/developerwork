@@ -1,21 +1,24 @@
 import './global.css';
+import { Metadata } from 'next';
 
-export const metadata = {
+export const metadata: Metadata = {
+  metadataBase: new URL('https://developerjas.vercel.app'),
   title: 'Jasmine Pahwa - Frontend Engineer',
   description: '4 years of experience building scalable frontend systems (Next.js, TypeScript, Node.js), currently at Ticketmaster',
-  applicationName: "Jasmine Pahwa - Frontend Engineer",
+  applicationName: 'Jasmine Pahwa - Frontend Engineer',
   openGraph: {
-    siteName: "Jasmine Pahwa - Frontend Engineer",
-    title: "Jasmine Pahwa - Frontend Engineer",
-    description: "4 years of experience building scalable frontend systems (Next.js, TypeScript, Node.js), currently at Ticketmaster",
-    url: "https://developerjas.vercel.app",
-    type: "website",
-    images: ["/jas.JPG"],
+    siteName: 'Jasmine Pahwa - Frontend Engineer',
+    title: 'Jasmine Pahwa - Frontend Engineer',
+    description: '4 years of experience building scalable frontend systems (Next.js, TypeScript, Node.js), currently at Ticketmaster',
+    url: 'https://developerjas.vercel.app',
+    type: 'website',
+    images: [{ url: '/jas.JPG', width: 1200, height: 630, alt: 'Jasmine Pahwa' }],
   },
   twitter: {
-    card: "/jas.JPG",
-    title: "Jasmine Pahwa - Frontend Engineer",
-    description: "4 years of experience building scalable frontend systems (Next.js, TypeScript, Node.js), currently at Ticketmaster",
+    card: 'summary_large_image',
+    title: 'Jasmine Pahwa - Frontend Engineer',
+    description: '4 years of experience building scalable frontend systems (Next.js, TypeScript, Node.js), currently at Ticketmaster',
+    images: ['/jas.JPG'],
   },
 };
 
